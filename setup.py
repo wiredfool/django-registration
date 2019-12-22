@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 
 setup(name='django-registration',
       zip_safe=False,  # eggs are the devil.
-      version='3.0.1',
+      version='3.0.1+eds0.1',
       description='An extensible user-registration application for Django',
       long_description=open(os.path.join(os.path.dirname(__file__),
                                          'README.rst')).read(),
